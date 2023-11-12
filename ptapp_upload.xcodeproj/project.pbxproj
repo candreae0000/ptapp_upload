@@ -13,6 +13,7 @@
 		0D26F6252B01567E009BBD8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D26F6242B01567E009BBD8C /* Preview Assets.xcassets */; };
 		0D26F6272B01567E009BBD8C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26F6262B01567E009BBD8C /* Persistence.swift */; };
 		0D26F62A2B01567E009BBD8C /* ptapp_upload.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D26F6282B01567E009BBD8C /* ptapp_upload.xcdatamodeld */; };
+		0D26F6312B015705009BBD8C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26F6302B015705009BBD8C /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0D26F6242B01567E009BBD8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0D26F6262B01567E009BBD8C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0D26F6292B01567E009BBD8C /* ptapp_upload.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ptapp_upload.xcdatamodel; sourceTree = "<group>"; };
+		0D26F6302B015705009BBD8C /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = ../../../Desktop/photo/photo/ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		0D26F61C2B01567B009BBD8C /* ptapp_upload */ = {
 			isa = PBXGroup;
 			children = (
+				0D26F6302B015705009BBD8C /* ImagePicker.swift */,
 				0D26F61D2B01567B009BBD8C /* ptapp_uploadApp.swift */,
 				0D26F61F2B01567B009BBD8C /* ContentView.swift */,
 				0D26F6212B01567E009BBD8C /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				0D26F6272B01567E009BBD8C /* Persistence.swift in Sources */,
 				0D26F6202B01567B009BBD8C /* ContentView.swift in Sources */,
+				0D26F6312B015705009BBD8C /* ImagePicker.swift in Sources */,
 				0D26F62A2B01567E009BBD8C /* ptapp_upload.xcdatamodeld in Sources */,
 				0D26F61E2B01567B009BBD8C /* ptapp_uploadApp.swift in Sources */,
 			);
